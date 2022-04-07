@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+span {
+    display: inline-block;
+    width: 70px;
+}
+
+label {
+    display: inline-block;
+    margin: 6px;
+    vertical-align: middle;
+}
+
+input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.radio {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border: grey 2px solid;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+input:checked+span {
+    background-color: darkgreen;
+    box-shadow: inset 0 0 3px white;
+}

@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button {
+    width: 40px;
+    height: 40px;
+    background-color: aqua;
+    background-image: url(/icon.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+div {
+    border: 2px green solid;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+input {
+    padding: 10px;
+    vertical-align: middle;
+    border: none;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+}
+
+input::placeholder {
+    color: crimson;
+}
